@@ -127,8 +127,13 @@ li {
     justify-content: space-between;
     background-color: #e0ddd6;
 }
+.small_items {
+    margin-top: 30px;
+}
 .one {
     align-self: flex-end;
+    flex-grow: 2;
+    text-align: end;
 }
 
 
@@ -185,4 +190,3 @@ li {
     }
 
 }
-
