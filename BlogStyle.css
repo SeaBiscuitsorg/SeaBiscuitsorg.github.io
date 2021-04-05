@@ -11,6 +11,10 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color:#8600fe;
+    opacity: 80%;
+}
 ul{
     list-style-type: none;
 }
