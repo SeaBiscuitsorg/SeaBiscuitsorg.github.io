@@ -120,7 +120,7 @@ li {
 }
 .Block_2_items {
     text-align: end;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 8%;
 }
 .img_2 {
@@ -154,7 +154,7 @@ li {
 .footer_para {
     margin-top: 30px;
 }
-.Cre {
+.CopyR {
     align-self: flex-end;
     flex-grow: 2;
     text-align: end;
@@ -245,6 +245,18 @@ li {
 @media screen and (max-width: 767px) {
   
     .Block_1_items{
+        margin-left: 13%;
+    }
+    
+    .Block_2_items {
+        text-align: start;
+        margin-top: 1%;
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Block_1_items{
         margin-left: 19%;
     }
     
@@ -253,9 +265,6 @@ li {
         margin-top: 1%;
         margin-left: 19%;
     }
-}
-
-@media screen and (max-width: 480px) {
     .footer {
         display: flex;
         flex-direction: column;
