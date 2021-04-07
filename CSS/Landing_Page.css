@@ -228,9 +228,10 @@ li {
         margin-left: 8%;
     }
     .img_2 {
-        width: 600px;
-        height: auto;
-        padding: 5vh;
+        width: 640px;
+        height: 238px;
+        padding: 0vh;
+        margin: 5% 8%;
     }
     .Block_2_heading {
         font-family: 'Poppins';
@@ -263,18 +264,24 @@ li {
 
 @media screen and (max-width: 480px) {
     .Block_1_items{
-        margin-left: 19%;
+        margin-left: 17%;
     }
     .img_1 {
         width: 220px;
         height: 220px;
         margin-right: 80px;
     }
+    .img_2 {
+        width: 320px;
+        height: 119px;
+        padding: 0vh;
+        margin: 5% 8%;
+    }
     
     .Block_2_items {
         text-align: start;
         margin-top: 1%;
-        margin-left: 19%;
+        margin-left: 17%;
     }
     .footer {
         display: flex;
@@ -282,6 +289,4 @@ li {
         align-items: center;
     }
 }
-
-
 
