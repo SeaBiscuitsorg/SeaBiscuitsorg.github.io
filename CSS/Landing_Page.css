@@ -41,6 +41,9 @@ p {
     font-size: 18px;
     color: white;
 }
+.Read_more a:hover {
+    color: rgb(255, 244, 230);
+}
 .brand_logo {
     height: 120px;
 }
