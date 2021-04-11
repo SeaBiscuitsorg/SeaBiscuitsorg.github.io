@@ -32,16 +32,6 @@ p {
 }
 
 /*--=========Global class=========--*/
-
-.Read_more {
-    background: black;
-    border: none;
-    border-radius: 30px;
-    padding: 8px;
-    font-family: 'Poppins';
-    font-size: 18px;
-    color: white;
-}
 .brand_logo {
     height: 120px;
 }
