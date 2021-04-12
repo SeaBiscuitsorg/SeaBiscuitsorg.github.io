@@ -1,0 +1,214 @@
+/*--=========Google fonts=========--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*====CSS variables==== */
+
+body {
+    background-color:#f0f2ea ;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:#8600fe;
+    opacity: 80%;
+}
+ul{
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 0% 5%;
+}
+p {
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+/*--=========Global class=========--*/
+
+.Read_more {
+    background: black;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+.brand_logo {
+    height: 120px;
+}
+
+/*--=========Nav bar=========--*/
+
+.nav_menu_flex_row {
+    background-color:none;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav_links {
+    display: flex;
+    margin: 70px 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+li {
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+.social_icon {
+    font-size: 30px;
+    font-family: 'Poppins';
+    margin-top: 70px;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.nav_brand{
+    margin-top:25px;
+    margin-left: 0px;
+    font-size: 30px;
+    padding-left: 5%;
+    flex-grow: 1;
+}
+
+/*--=========Body=========--*/
+.About_me {
+    display: grid;
+    grid-template-rows: 20%;
+}
+
+.img_1 {
+    height: 450px;
+    margin: 5% 10%;
+    margin-bottom: 12%;
+    justify-self: center;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.About_me_contents {
+    text-align: center;
+    padding: 0% 20% ;
+}
+
+/*--=========Footer=========--*/
+
+.footer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #e0ddd6;
+}
+.footer_para {
+    margin-top: 30px;
+}
+.CopyR {
+    align-self: flex-end;
+    flex-grow: 2;
+    text-align: end;
+}
+
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .Read_more {
+        font-size: 12px;
+    }
+    .nav_menu_flex_row {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 62px;
+    }
+    .social_icon {
+        margin: 0px;
+        margin-bottom: 20px;
+        padding:0px;
+        text-align: center;
+    }
+    .nav_brand {
+        padding:0px;
+        text-align: center;
+    }
+    .About_me {
+        display: grid;
+        grid-template-rows: 32%;
+    }
+
+    .img_1 {
+        height: 320px;
+        width: auto;
+        margin: 5% 10%;
+        justify-self: center;
+        border: 0px solid black;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .About_me {
+        display: grid;
+        grid-template-rows: 30%;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    .img_1 {
+        height: 280px;
+        width: auto;
+        margin: 5% 10%;
+        margin-bottom: 15%;
+        justify-self: center;
+        border: 0px solid black;
+        border-radius: 20px;
+    }  
+  
+}
+
+@media screen and (max-width: 480px) {
+    .About_me {
+        display: grid;
+        grid-template-rows: 45% 50%;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    .img_1 {
+        height: 180px;
+        width: auto;
+        margin: 5% 10%;
+        margin-bottom: 20%;
+        justify-self: center;
+        border: 0px solid black;
+        border-radius: 20px;
+    }  
+ 
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+
